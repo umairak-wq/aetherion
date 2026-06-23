@@ -3,6 +3,7 @@ import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,13 +25,13 @@ const mono = JetBrains_Mono({
   weight: ["400", "500"],
 });
 
-const siteUrl = "https://aetherion.tech";
+const siteUrl = SITE_URL;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Aetherion — Engineering the Frontier",
-    template: "%s — Aetherion",
+    default: `${SITE_NAME} — Engineering the Frontier`,
+    template: `%s — ${SITE_NAME}`,
   },
   description:
     "Aetherion develops intelligence and technology infrastructure for the next era of science, energy, aerospace, defence, and advanced computing.",
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
     title: "Aetherion — Engineering the Frontier",
     description:
       "Intelligence and technology infrastructure for the next era of science, energy, aerospace, defence, and advanced computing.",
-    siteName: "Aetherion",
+    siteName: SITE_NAME,
   },
   twitter: {
     card: "summary_large_image",
