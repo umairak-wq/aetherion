@@ -2,6 +2,7 @@ import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
 import CinematicField from "@/components/ui/CinematicField";
 import { founderMailto } from "@/lib/contact";
+import { SITE_DESCRIPTION, SITE_TAGLINE } from "@/lib/site";
 
 export default function Hero() {
   return (
@@ -13,13 +14,12 @@ export default function Hero() {
           Frontier Science &amp; Strategic Technology
         </p>
 
-        <h1 className="font-display text-[13vw] leading-[0.96] sm:text-[10vw] md:text-7xl lg:text-8xl font-medium tracking-tight text-balance max-w-5xl animate-fade-up">
-          Engineering<br />the Frontier
+        <h1 className="font-display text-[11vw] leading-[0.96] sm:text-[8vw] md:text-6xl lg:text-7xl font-medium tracking-tight text-balance max-w-5xl animate-fade-up">
+          {SITE_TAGLINE}
         </h1>
 
         <p className="mt-8 max-w-xl text-base md:text-lg text-bone-dim leading-relaxed animate-fade-up" style={{ animationDelay: "0.15s" }}>
-          Aetherion develops intelligence and technology infrastructure for the
-          next era of science, energy, aerospace, defence, and advanced computing.
+          {SITE_DESCRIPTION}
         </p>
 
         <div

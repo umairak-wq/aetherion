@@ -3,7 +3,7 @@ import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,11 +30,10 @@ const siteUrl = SITE_URL;
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${SITE_NAME} — Engineering the Frontier`,
+    default: `${SITE_NAME} — ${SITE_TAGLINE}`,
     template: `%s — ${SITE_NAME}`,
   },
-  description:
-    "Aetherion develops intelligence and technology infrastructure for the next era of science, energy, aerospace, defence, and advanced computing.",
+  description: SITE_DESCRIPTION,
   keywords: [
     "frontier technology",
     "deep tech intelligence",
@@ -49,16 +48,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: siteUrl,
-    title: "Aetherion — Engineering the Frontier",
-    description:
-      "Intelligence and technology infrastructure for the next era of science, energy, aerospace, defence, and advanced computing.",
+    title: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    description: SITE_DESCRIPTION,
     siteName: SITE_NAME,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aetherion — Engineering the Frontier",
-    description:
-      "Intelligence and technology infrastructure for the next era of science, energy, aerospace, defence, and advanced computing.",
+    title: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    description: SITE_DESCRIPTION,
   },
   icons: {
     icon: "/favicon.svg",
