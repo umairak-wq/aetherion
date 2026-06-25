@@ -16,7 +16,7 @@ export default function Mission() {
           <div className="lg:col-span-8">
             <Reveal delay={0.05}>
               <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-medium leading-[1.2] text-balance">
-                Aetherion identifies, maps, analyses, and builds around the
+                UAK identifies, maps, analyses, and builds around the
                 technologies that move from laboratory to mainstream — before
                 the rest of the market sees them.
               </h2>
@@ -25,7 +25,7 @@ export default function Mission() {
               <p className="mt-8 text-base md:text-lg text-bone-dim leading-relaxed max-w-2xl">
                 Frontier technology rarely arrives announced. It moves through
                 research labs, patent filings, and early commercial bets long
-                before it reaches public attention. Aetherion exists to track
+                before it reaches public attention. UAK exists to track
                 that movement with precision, and to give investors,
                 institutions, and governments the intelligence to act on it.
               </p>

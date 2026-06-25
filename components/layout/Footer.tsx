@@ -31,10 +31,10 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-12">
           <div className="max-w-sm">
             <p className="font-display text-base tracking-widest2 uppercase">
-              AETHERION
+              UAK
             </p>
             <p className="mt-5 text-sm text-bone-muted leading-relaxed">
-              Aetherion maps, analyses, and builds around frontier technologies
+              UAK maps, analyses, and builds around frontier technologies
               before they become mainstream.
             </p>
           </div>
@@ -69,7 +69,7 @@ export default function Footer() {
 
         <div className="mt-16 pt-8 hairline-t flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <p className="text-xs text-bone-muted">
-            &copy; {year} Aetherion. All rights reserved.
+            &copy; {year} UAK. All rights reserved.
           </p>
           <p className="text-xs text-bone-muted">
             Frontier science &amp; strategic technology intelligence

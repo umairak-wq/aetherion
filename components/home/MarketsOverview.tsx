@@ -13,8 +13,8 @@ export default function MarketsOverview() {
         <Reveal>
           <SectionHeading
             eyebrow="Markets"
-            title="Who Aetherion serves."
-            description="Aetherion works with the institutions allocating capital, setting policy, and building capability at the frontier."
+            title="Who UAK serves."
+            description="UAK works with the institutions allocating capital, setting policy, and building capability at the frontier."
           />
         </Reveal>
 

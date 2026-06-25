@@ -8,7 +8,7 @@ import FinalCTA from "@/components/home/FinalCTA";
 export const metadata: Metadata = {
   title: "Mission",
   description:
-    "Aetherion exists to understand, map, and build around frontier science and strategic technology before it reaches the mainstream.",
+    "UAK exists to understand, map, and build around frontier science and strategic technology before it reaches the mainstream.",
 };
 
 const pillars = [
@@ -40,7 +40,7 @@ export default function MissionPage() {
       <PageHero
         eyebrow="Mission"
         title="Intelligence for the technologies that will shape the next century."
-        description="Aetherion exists because the technologies that will define the next century are already in motion — and most of the world is not yet watching."
+        description="UAK exists because the technologies that will define the next century are already in motion — and most of the world is not yet watching."
       />
 
       <Section className="hairline-b">
@@ -70,7 +70,7 @@ export default function MissionPage() {
               </Reveal>
               <Reveal delay={0.14}>
                 <p className="text-base text-bone-dim leading-relaxed">
-                  Aetherion was established to operate inside that gap. Not to
+                  UAK was established to operate inside that gap. Not to
                   report what has already happened, but to map what is forming
                   — with the rigour required by the decisions it informs.
                 </p>
@@ -130,7 +130,7 @@ export default function MissionPage() {
             <div className="lg:col-span-8 max-w-2xl">
               <Reveal>
                 <p className="text-lg md:text-xl text-bone leading-relaxed text-balance">
-                  Aetherion maps, analyses, and builds around frontier science
+                  UAK maps, analyses, and builds around frontier science
                   and strategic technology.
                 </p>
               </Reveal>

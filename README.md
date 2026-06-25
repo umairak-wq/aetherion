@@ -1,4 +1,4 @@
-# Aetherion
+# UAK
 
 Frontier Science Intelligence — the intelligence platform for emerging technologies.
 

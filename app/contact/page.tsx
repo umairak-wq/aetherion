@@ -9,7 +9,7 @@ import { founderMailto } from "@/lib/contact";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Umair Khan, founder of Aetherion, for partnerships, research, and general enquiries.",
+    "Contact Umair Khan, founder of UAK, for partnerships, research, and general enquiries.",
 };
 
 export default function ContactPage() {
@@ -17,7 +17,7 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact"
-        title="Get in touch with Aetherion."
+        title="Get in touch with UAK."
         description="Reach out directly to discuss partnerships, research, or any enquiry."
       />
 
@@ -25,7 +25,7 @@ export default function ContactPage() {
         <Container className="text-center max-w-2xl mx-auto">
           <Reveal>
             <p className="text-base md:text-lg text-bone-dim leading-relaxed">
-              Aetherion is led by Umair Khan. For all enquiries, send an email
+              UAK is led by Umair Khan. For all enquiries, send an email
               directly.
             </p>
             <div className="mt-10 flex justify-center">
