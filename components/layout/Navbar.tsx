@@ -49,7 +49,7 @@ export default function Navbar() {
           href="/"
           className="font-display text-[15px] font-medium tracking-widest2 uppercase"
         >
-          UAK
+          Aerithion
         </Link>
 
         <nav className="hidden md:flex items-center gap-9">

@@ -9,7 +9,7 @@ import { technologySections } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Technology",
   description:
-    "UAK's technology coverage spans photonics, quantum systems, advanced computing, aerospace, defence, energy, robotics, and advanced materials.",
+    "Aerithion's technology coverage spans photonics, quantum systems, advanced computing, aerospace, defence, energy, robotics, and advanced materials.",
 };
 
 export default function TechnologyPage() {
@@ -18,7 +18,7 @@ export default function TechnologyPage() {
       <PageHero
         eyebrow="Technology"
         title="The disciplines defining the next century of capability."
-        description="UAK tracks and builds around the technical domains most likely to determine national capability, industrial advantage, and capital allocation over the coming decades."
+        description="Aerithion tracks and builds around the technical domains most likely to determine national capability, industrial advantage, and capital allocation over the coming decades."
       />
 
       <Section>

@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     "advanced computing",
     "technology intelligence platform",
   ],
-  authors: [{ name: "UAK" }],
+  authors: [{ name: SITE_NAME }],
   openGraph: {
     type: "website",
     url: siteUrl,

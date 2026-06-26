@@ -21,7 +21,7 @@ export default function FinalCTA() {
         <Reveal>
           <p className="label">Get In Touch</p>
           <h2 className="mt-6 font-display text-4xl sm:text-5xl md:text-6xl font-medium leading-[1.05] text-balance">
-            Partner with UAK
+            Partner with Aerithion
           </h2>
           <p className="mt-6 max-w-xl mx-auto text-base md:text-lg text-bone-dim leading-relaxed">
             For strategic partnerships, investor discussions, research

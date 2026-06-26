@@ -8,7 +8,7 @@ import FinalCTA from "@/components/home/FinalCTA";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "UAK exists to understand, map, and build the technologies that will define the next century, focused on frontier science, strategic technology, and deep-tech intelligence.",
+    "Aerithion exists to understand, map, and build the technologies that will define the next century, focused on frontier science, strategic technology, and deep-tech intelligence.",
 };
 
 const principles = [
@@ -39,7 +39,7 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About"
-        title="UAK exists to understand, map, and build the technologies that will define the next century."
+        title="Aerithion exists to understand, map, and build the technologies that will define the next century."
         description="It is focused on frontier science, strategic technology, and deep-tech intelligence."
       />
 
@@ -62,7 +62,7 @@ export default function AboutPage() {
               </Reveal>
               <Reveal delay={0.08}>
                 <p className="text-base text-bone-dim leading-relaxed">
-                  UAK was built on the premise that this gap — between
+                  Aerithion was built on the premise that this gap — between
                   where a technology is invented and where it is understood —
                   is where the most consequential decisions get made. Capital
                   is allocated, policy is set, and capability is built during
@@ -71,7 +71,7 @@ export default function AboutPage() {
               </Reveal>
               <Reveal delay={0.14}>
                 <p className="text-base text-bone-dim leading-relaxed">
-                  UAK closes it. The firm operates across frontier
+                  Aerithion closes it. The firm operates across frontier
                   science, strategic technology, and deep-tech intelligence,
                   serving the investors, institutions, and governments who
                   need to understand a technology&apos;s trajectory before it
@@ -119,12 +119,12 @@ export default function AboutPage() {
             <div className="lg:col-span-8 max-w-2xl">
               <Reveal>
                 <p className="text-base md:text-lg text-bone-dim leading-relaxed">
-                  UAK&apos;s work spans the full chain from discovery to
+                  Aerithion&apos;s work spans the full chain from discovery to
                   deployment: the laboratories where a technology originates,
                   the companies that commercialise it, the capital that funds
                   it, and the governments for whom it carries strategic
                   weight. Few organisations are built to operate across all
-                  four. UAK is.
+                  four. Aerithion is.
                 </p>
               </Reveal>
             </div>

@@ -11,7 +11,7 @@ import { markets, markets24 } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Markets",
   description:
-    "UAK serves investors, defence and government, aerospace and space, energy and infrastructure, research institutions, deep-tech founders, corporate innovation teams, and private equity and venture capital.",
+    "Aerithion serves investors, defence and government, aerospace and space, energy and infrastructure, research institutions, deep-tech founders, corporate innovation teams, and private equity and venture capital.",
 };
 
 export default function MarketsPage() {
@@ -20,7 +20,7 @@ export default function MarketsPage() {
       <PageHero
         eyebrow="Markets"
         title="Built for the institutions operating at the frontier."
-        description="UAK serves the organisations whose decisions shape which frontier technologies reach scale — and which do not."
+        description="Aerithion serves the organisations whose decisions shape which frontier technologies reach scale — and which do not."
       />
 
       <Section>
@@ -41,7 +41,7 @@ export default function MarketsPage() {
             <SectionHeading
               eyebrow="Coverage"
               title="The sectors and intelligence categories within our remit."
-              description="UAK's coverage extends across the full landscape of frontier science and strategic technology."
+              description="Aerithion's coverage extends across the full landscape of frontier science and strategic technology."
             />
           </Reveal>
 

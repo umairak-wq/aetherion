@@ -30,7 +30,7 @@ export default function StrategicPosition() {
             <Reveal>
               <p className="label">Strategic Position</p>
               <h2 className="mt-5 font-display text-3xl sm:text-4xl md:text-[44px] font-medium leading-[1.1] text-balance">
-                UAK sits at the intersection of science, industry,
+                Aerithion sits at the intersection of science, industry,
                 capital, and national-scale technology.
               </h2>
               <p className="mt-6 text-base text-bone-dim leading-relaxed max-w-md">

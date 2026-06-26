@@ -14,7 +14,7 @@ export default function TechnologyDomains() {
           <SectionHeading
             eyebrow="Technology Domains"
             title="The frontier disciplines we track and build around."
-            description="UAK's coverage spans the technical disciplines most likely to define national capability and capital allocation over the next decade."
+            description="Aerithion's coverage spans the technical disciplines most likely to define national capability and capital allocation over the next decade."
           />
         </Reveal>
 

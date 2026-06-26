@@ -1,6 +1,6 @@
 export const SITE_URL = "https://aetherion-intelligence.co.uk";
 
-export const SITE_NAME = "UAK";
+export const SITE_NAME = "Aerithion";
 
 export const SITE_TAGLINE = "Frontier Science Intelligence";
 
