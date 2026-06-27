@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import clsx from "@/lib/clsx";
 import { founderMailto } from "@/lib/contact";
+import { SITE_NAME } from "@/lib/site";
 
 type NavLink = {
   href: string;
@@ -49,7 +50,7 @@ export default function Navbar() {
           href="/"
           className="font-display text-[15px] font-medium tracking-widest2 uppercase"
         >
-          Aerithion
+          {SITE_NAME}
         </Link>
 
         <nav className="hidden md:flex items-center gap-9">
