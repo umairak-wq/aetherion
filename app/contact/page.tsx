@@ -1,16 +1,17 @@
-import type { Metadata } from "next";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import PageHero from "@/components/ui/PageHero";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/motion/Reveal";
 import { founderMailto } from "@/lib/contact";
+import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Contact",
   description:
     "Contact Umair Khan, founder of Aerithion, for partnerships, research, and general enquiries.",
-};
+  path: "/contact",
+});
 
 export default function ContactPage() {
   return (

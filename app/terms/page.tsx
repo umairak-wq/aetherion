@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import PageHero from "@/components/ui/PageHero";
+import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Terms",
   description: "Terms of use for the Aerithion website.",
-};
+  path: "/terms",
+});
 
 export default function TermsPage() {
   return (

@@ -1,16 +1,17 @@
-import type { Metadata } from "next";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import PageHero from "@/components/ui/PageHero";
 import Reveal from "@/components/motion/Reveal";
 import FinalCTA from "@/components/home/FinalCTA";
 import { focusAreas } from "@/lib/content";
+import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Coverage",
   description:
     "The frontier technology areas Aerithion is building intelligence coverage around.",
-};
+  path: "/coverage",
+});
 
 export default function CoveragePage() {
   return (

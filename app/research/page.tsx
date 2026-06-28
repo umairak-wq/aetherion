@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import PageHero from "@/components/ui/PageHero";
 import Reveal from "@/components/motion/Reveal";
 import FinalCTA from "@/components/home/FinalCTA";
+import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Research",
   description:
     "How Aerithion is building research monitoring for frontier science and emerging technologies.",
-};
+  path: "/research",
+});
 
 const principles = [
   {

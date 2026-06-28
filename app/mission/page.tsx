@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import PageHero from "@/components/ui/PageHero";
 import Reveal from "@/components/motion/Reveal";
 import FinalCTA from "@/components/home/FinalCTA";
+import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Mission",
   description:
     "Aerithion is building an intelligence platform for frontier science and strategic technology before it reaches the mainstream.",
-};
+  path: "/mission",
+});
 
 const pillars = [
   {
@@ -171,8 +172,9 @@ export default function MissionPage() {
                 </h2>
                 <p className="mt-6 text-base text-bone-dim leading-relaxed max-w-md">
                   Few organisations are built to operate across all four. This
-                  intersection is not incidental to our work — it is the
-                  condition under which frontier technology is actually decided.
+                  intersection is central to what Aerithion is building — it is
+                  the condition under which frontier technology is actually
+                  decided.
                 </p>
               </Reveal>
             </div>

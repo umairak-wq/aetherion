@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import PageHero from "@/components/ui/PageHero";
 import { FOUNDER_EMAIL, founderMailto } from "@/lib/contact";
+import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Privacy Policy",
   description: "Privacy policy for Aerithion.",
-};
+  path: "/privacy",
+});
 
 export default function PrivacyPage() {
   return (
