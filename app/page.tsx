@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Hero from "@/components/home/Hero";
 import Mission from "@/components/home/Mission";
-import TechnologyDomains from "@/components/home/TechnologyDomains";
-import MarketsOverview from "@/components/home/MarketsOverview";
-import StrategicPosition from "@/components/home/StrategicPosition";
+import FocusAreas from "@/components/home/FocusAreas";
+import PlatformInDevelopment from "@/components/home/PlatformInDevelopment";
 import FinalCTA from "@/components/home/FinalCTA";
 import { SITE_DESCRIPTION, SITE_TITLE } from "@/lib/site";
 
@@ -17,9 +16,8 @@ export default function HomePage() {
     <>
       <Hero />
       <Mission />
-      <TechnologyDomains />
-      <MarketsOverview />
-      <StrategicPosition />
+      <FocusAreas />
+      <PlatformInDevelopment />
       <FinalCTA />
     </>
   );

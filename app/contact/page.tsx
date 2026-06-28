@@ -17,20 +17,21 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact"
-        title="Get in touch with Aerithion."
-        description="Reach out directly to discuss partnerships, research, or any enquiry."
+        title="Begin the conversation."
+        description="For early conversations, partnerships, and research enquiries."
       />
 
       <Section>
         <Container className="text-center max-w-2xl mx-auto">
           <Reveal>
             <p className="text-base md:text-lg text-bone-dim leading-relaxed">
-              Aerithion is led by Umair Khan. For all enquiries, send an email
-              directly.
+              Aerithion is at an early stage. Umair Khan welcomes direct
+              conversations about the platform, research focus, and potential
+              partnerships.
             </p>
             <div className="mt-10 flex justify-center">
               <Button href={founderMailto} variant="primary">
-                Send Email
+                Contact
               </Button>
             </div>
           </Reveal>

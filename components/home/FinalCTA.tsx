@@ -19,13 +19,11 @@ export default function FinalCTA() {
 
       <Container className="relative z-10 text-center">
         <Reveal>
-          <p className="label">Get In Touch</p>
-          <h2 className="mt-6 font-display text-4xl sm:text-5xl md:text-6xl font-medium leading-[1.05] text-balance">
-            Partner with Aerithion
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-medium leading-[1.05] text-balance">
+            Begin the conversation.
           </h2>
           <p className="mt-6 max-w-xl mx-auto text-base md:text-lg text-bone-dim leading-relaxed">
-            For strategic partnerships, investor discussions, research
-            enquiries, and institutional collaboration.
+            For early conversations, partnerships, and research enquiries.
           </p>
           <div className="mt-10 flex justify-center">
             <Button href={founderMailto} variant="primary">

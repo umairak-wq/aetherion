@@ -7,7 +7,10 @@ export const SITE_TAGLINE = "Frontier Science Intelligence";
 export const SITE_TITLE = `${SITE_NAME} - ${SITE_TAGLINE}`;
 
 export const SITE_DESCRIPTION =
-  "The intelligence platform for emerging technologies. Track the companies, research, capital, and breakthroughs shaping the next century.";
+  "Building the intelligence platform for emerging technologies.";
+
+export const SITE_HERO_PARAGRAPH =
+  "Aerithion tracks the companies, research, capital, and breakthroughs shaping the future of science, defence, aerospace, energy, and advanced computing.";
 
 export const FOUNDER_EMAIL = "umair.khan@aerithion.com";
 

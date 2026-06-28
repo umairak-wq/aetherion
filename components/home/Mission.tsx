@@ -16,18 +16,19 @@ export default function Mission() {
           <div className="lg:col-span-8">
             <Reveal delay={0.05}>
               <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-medium leading-[1.2] text-balance">
-                Aerithion identifies, maps, analyses, and builds around the
-                technologies that move from laboratory to mainstream — before
-                the rest of the market sees them.
+                Aerithion is building an intelligence platform to identify,
+                map, and analyse the technologies that move from laboratory to
+                mainstream — before the rest of the market sees them.
               </h2>
             </Reveal>
             <Reveal delay={0.12}>
               <p className="mt-8 text-base md:text-lg text-bone-dim leading-relaxed max-w-2xl">
                 Frontier technology rarely arrives announced. It moves through
                 research labs, patent filings, and early commercial bets long
-                before it reaches public attention. Aerithion exists to track
-                that movement with precision, and to give investors,
-                institutions, and governments the intelligence to act on it.
+                before it reaches public attention. Aerithion is developing the
+                infrastructure to track that movement with precision, and to
+                give investors, institutions, and governments a clearer view of
+                where the frontier is forming.
               </p>
             </Reveal>
             <Reveal delay={0.18}>
