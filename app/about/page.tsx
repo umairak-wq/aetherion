@@ -8,7 +8,7 @@ import FinalCTA from "@/components/home/FinalCTA";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Aerithion exists to understand, map, and build the technologies that will define the next century, focused on frontier science, strategic technology, and deep-tech intelligence.",
+    "Aerithion is building an intelligence platform for the technologies that will define the next century, focused on frontier science, strategic technology, and deep-tech intelligence.",
 };
 
 const principles = [
@@ -39,8 +39,8 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About"
-        title="Aerithion exists to understand, map, and build the technologies that will define the next century."
-        description="It is focused on frontier science, strategic technology, and deep-tech intelligence."
+        title="Building intelligence for the technologies that will define the next century."
+        description="Aerithion is focused on frontier science, strategic technology, and deep-tech intelligence."
       />
 
       <Section className="hairline-b">
@@ -62,20 +62,21 @@ export default function AboutPage() {
               </Reveal>
               <Reveal delay={0.08}>
                 <p className="text-base text-bone-dim leading-relaxed">
-                  Aerithion was built on the premise that this gap — between
-                  where a technology is invented and where it is understood —
-                  is where the most consequential decisions get made. Capital
-                  is allocated, policy is set, and capability is built during
-                  that gap, often with incomplete information.
+                  Aerithion is being built on the premise that this gap —
+                  between where a technology is invented and where it is
+                  understood — is where the most consequential decisions get
+                  made. Capital is allocated, policy is set, and capability is
+                  built during that gap, often with incomplete information.
                 </p>
               </Reveal>
               <Reveal delay={0.14}>
                 <p className="text-base text-bone-dim leading-relaxed">
-                  Aerithion closes it. The firm operates across frontier
-                  science, strategic technology, and deep-tech intelligence,
-                  serving the investors, institutions, and governments who
-                  need to understand a technology&apos;s trajectory before it
-                  becomes obvious to everyone else.
+                  Aerithion is being developed to close that gap — building
+                  intelligence infrastructure across frontier science, strategic
+                  technology, and deep-tech intelligence for the investors,
+                  institutions, and governments who need to understand a
+                  technology&apos;s trajectory before it becomes obvious to
+                  everyone else.
                 </p>
               </Reveal>
             </div>
@@ -119,12 +120,13 @@ export default function AboutPage() {
             <div className="lg:col-span-8 max-w-2xl">
               <Reveal>
                 <p className="text-base md:text-lg text-bone-dim leading-relaxed">
-                  Aerithion&apos;s work spans the full chain from discovery to
-                  deployment: the laboratories where a technology originates,
-                  the companies that commercialise it, the capital that funds
-                  it, and the governments for whom it carries strategic
-                  weight. Few organisations are built to operate across all
-                  four. Aerithion is.
+                  The platform is being designed to span the full chain from
+                  discovery to deployment: the laboratories where a technology
+                  originates, the companies that commercialise it, the capital
+                  that funds it, and the governments for whom it carries
+                  strategic weight. Few organisations are built to operate
+                  across all four. That is the ambition Aerithion is working
+                  toward.
                 </p>
               </Reveal>
             </div>

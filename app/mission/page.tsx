@@ -8,7 +8,7 @@ import FinalCTA from "@/components/home/FinalCTA";
 export const metadata: Metadata = {
   title: "Mission",
   description:
-    "Aerithion exists to understand, map, and build around frontier science and strategic technology before it reaches the mainstream.",
+    "Aerithion is building an intelligence platform for frontier science and strategic technology before it reaches the mainstream.",
 };
 
 const pillars = [
@@ -40,7 +40,7 @@ export default function MissionPage() {
       <PageHero
         eyebrow="Mission"
         title="Intelligence for the technologies that will shape the next century."
-        description="Aerithion exists because the technologies that will define the next century are already in motion — and most of the world is not yet watching."
+        description="Aerithion is being built because the technologies that will define the next century are already in motion — and most of the world is not yet watching."
       />
 
       <Section className="hairline-b">
@@ -70,7 +70,7 @@ export default function MissionPage() {
               </Reveal>
               <Reveal delay={0.14}>
                 <p className="text-base text-bone-dim leading-relaxed">
-                  Aerithion was established to operate inside that gap. Not to
+                  Aerithion is being built to operate inside that gap. Not to
                   report what has already happened, but to map what is forming
                   — with the rigour required by the decisions it informs.
                 </p>
@@ -130,26 +130,28 @@ export default function MissionPage() {
             <div className="lg:col-span-8 max-w-2xl">
               <Reveal>
                 <p className="text-lg md:text-xl text-bone leading-relaxed text-balance">
-                  Aerithion maps, analyses, and builds around frontier science
-                  and strategic technology.
+                  Aerithion is building an intelligence platform to map, analyse,
+                  and understand frontier science and strategic technology.
                 </p>
               </Reveal>
               <Reveal delay={0.08}>
                 <p className="mt-8 text-base text-bone-dim leading-relaxed">
-                  We track the disciplines most likely to determine national
-                  capability and industrial position over the coming decades —
-                  from quantum systems and photonics to advanced energy,
-                  aerospace, and defence technology.
+                  The platform is being developed to track the disciplines most
+                  likely to determine national capability and industrial
+                  position over the coming decades — from quantum systems and
+                  photonics to advanced energy, aerospace, and defence
+                  technology.
                 </p>
               </Reveal>
               <Reveal delay={0.14}>
                 <p className="mt-6 text-base text-bone-dim leading-relaxed">
-                  Our work spans the full arc of a technology&apos;s development:
-                  the research that originates it, the institutions that
-                  commercialise it, the capital that funds it, and the strategic
-                  context in which it carries weight. We do not observe from a
-                  distance. We map the landscape, analyse its structure, and
-                  build the intelligence infrastructure required to act on it.
+                  That work is designed to span the full arc of a
+                  technology&apos;s development: the research that originates
+                  it, the institutions that commercialise it, the capital that
+                  funds it, and the strategic context in which it carries
+                  weight. The aim is not to observe from a distance, but to map
+                  the landscape, analyse its structure, and build the
+                  intelligence infrastructure required to act on it.
                 </p>
               </Reveal>
             </div>
