@@ -1,6 +1,8 @@
 # Aerithion
 
-Frontier Science Intelligence — the intelligence platform for emerging technologies.
+Frontier Science Intelligence — building the intelligence platform for emerging technologies.
+
+**Live site:** https://www.aerithion.com
 
 ## Getting started
 
@@ -26,12 +28,13 @@ npm run start
 
 ## Structure
 
-- `app/` — routes (Home, Technology, Mission, Markets, About, Contact) plus `layout.tsx`, `globals.css`, `sitemap.ts`, `robots.ts`
+- `app/` — routes (Home, Research, Coverage, Mission, About, Contact, Privacy, Terms) plus layout, sitemap, and robots
 - `components/layout/` — Navbar, Footer
 - `components/home/` — homepage sections
-- `components/ui/` — shared primitives (Container, Section, Button, cards, PageHero)
+- `components/ui/` — shared primitives
 - `components/motion/` — scroll-reveal wrapper (Framer Motion)
-- `lib/` — site config (`site.ts`), content data (`content.ts`, `contact.ts`), and a small `clsx` helper
+- `lib/` — site config, content data, metadata helpers
+- `public/` — favicons and web manifest
 
 ## Repository
 
